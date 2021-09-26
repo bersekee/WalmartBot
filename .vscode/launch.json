@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "python",
+            "request": "launch",
+            "name": "Server",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "program": "${workspaceFolder}/walmart_bot_server.py",
+            "args": ["-a", "127.0.0.1", "-p", "8089", "-i", "20"]
+        },
+        {
+            "type": "python",
+            "request": "launch",
+            "name": "Client",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "program": "${workspaceFolder}/walmart_bot_client.py",
+            "args": ["-a", "127.0.0.1", "-p", "8089", "-s", "6000200280557"]
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Server/Client",
+            "configurations": ["Server", "Client"]
+        }
+    ]
+}

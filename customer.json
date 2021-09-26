@@ -1,0 +1,18 @@
+{
+    "shipping": {
+        "firstName": "Tom",
+        "lastName": "Pendleton",
+        "address": "3778 Derry Rd",
+        "city": "Malton",
+        "province": "ON",
+        "postalCode": "L4T1A8",
+        "phone": "9057402304",
+        "email": "TomPendleton1235265@gmail.com"
+    },
+    "billing": {
+        "cardNumber": "4539657599471371",
+        "expirationMonth": "09",
+        "expirationYear": "26",
+        "securityCode": "339"
+    }
+}
